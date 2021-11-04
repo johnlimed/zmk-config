@@ -1,3 +1,42 @@
+# My layout
+```
+Default layer
+// ------------------------------------------------------------------------------------------
+// | ESC |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |   BKSP   |
+// | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]   |   |    |
+// | MO 1  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |     ENTER    |
+// |  SHIFT    |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   |      SHIFT     |
+// |  CTL  |  WIN  |  ALT  |            SPACE              | LEFT |   UP   |  DOWN  | RIGHT |
+// ------------------------------------------------------------------------------------------
+
+Raise layer
+// ------------------------------------------------------------------------------------------
+// | `  | F1 | F2 |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  | F10 | F11 | F12 | DEL  |
+// |  CAPS | BT0 | BT1 | BT2 | BT3 | BT4 |     |     |     |     |     |     |     | BT CLR |
+// |        |     |     |    |    |    | LEFT | UP | DOWN | RIGHT |     |     |             |
+// |           |     |     |     |     |     |     |     |     |     |     |      MO3       |
+// |       |       |       |                               | HOME | PG UP | PG DOWN |  END  |
+// ------------------------------------------------------------------------------------------
+
+Mac layer
+// ------------------------------------------------------------------------------------------
+// |     |     |     |     |     |     |     |     |     |     |     |     |     |          |
+// |       |     |     |     |     |     |     |     |     |     |     |     |     |        |
+// |        |     |     |     |     |     |     |     |     |     |     |     |             |
+// |           |     |     |     |     |     |     |     |     |     |     |                |
+// |       |  WIN  |  ALT  |                               |      |        |        |       |
+// ------------------------------------------------------------------------------------------
+
+Layers layer
+// ------------------------------------------------------------------------------------------
+// |   | TO 0 | MO 1 | TOG 2 |   |     |      |      |      |      |   |   |   | BOOTLOADER |
+// |       |     |     |     |     |     |     |     |     |     |     |     |     |        |
+// |        |     |     |     |     |     |     |     |     |     |     |     |             |
+// |           |     |     |     |     |     |     |     |     |     |     |                |
+// |       |       |       |                               |      |        |        |       |
+// ------------------------------------------------------------------------------------------
+```
+
 # zmk-config
 This is the ZMK-Config repo for the Polarity works BT60 keyboard, with this you can customise your layout and keymap to suit your exact needs.
 We have provided base keymaps for the following layouts on the soldered version: ANSI, ISO, Split backspace and right shift, Tsangan and all 1u bottom rows. These can be accessed by choosing the appropriate branch. The hotswap version has one fork which already includes support for split backspace however it is not bound to anything useful thus you will need to fork and customise to your taste
