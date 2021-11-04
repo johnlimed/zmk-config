@@ -63,14 +63,14 @@
 		};
 		layers {
 				// ------------------------------------------------------------------------------------------
-				// |   | TO 0 | MO 1 | TOG 2 |   |     |      |      |      |      |    |    |    |         |
+				// |   | TO 0 | MO 1 | TOG 2 |   |     |      |      |      |      |   |   |   | BOOTLOADER |
 				// |       |     |     |     |     |     |     |     |     |     |     |     |     |        |
 				// |        |     |     |     |     |     |     |     |     |     |     |     |             |
 				// |           |     |     |     |     |     |     |     |     |     |     |                |
 				// |       |       |       |                               |      |        |        |       |
 				// ------------------------------------------------------------------------------------------
 			bindings = <
-				&trans &to DEFAULT &mo RAISE &tog MAC &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+				&trans &to DEFAULT &mo RAISE &tog MAC &trans &trans &trans &trans &trans &trans &trans &trans &trans &bootloader
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
