@@ -58,19 +58,19 @@
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-				&trans &kp LGUI &kp LALT              &trans                          &trans &trans &trans &trans
+				&trans &kp LALT &kp LGUI              &trans                          &trans &trans &trans &trans
 			>;
 		};
 		layers {
 				// ------------------------------------------------------------------------------------------
-				// |   | TO 0 | MO 1 | TOG 2 |   |     |      |      |      |      |   |   |   | BOOTLOADER |
+				// |   |      | TOG 2 |      |   |     |      |      |      |      |   |   |   | BOOTLOADER |
 				// |       |     |     |     |     |     |     |     |     |     |     |     |     |        |
 				// |        |     |     |     |     |     |     |     |     |     |     |     |             |
 				// |           |     |     |     |     |     |     |     |     |     |     |                |
 				// |       |       |       |                               |      |        |        |       |
 				// ------------------------------------------------------------------------------------------
 			bindings = <
-				&trans &to DEFAULT &mo RAISE &tog MAC &trans &trans &trans &trans &trans &trans &trans &trans &trans &bootloader
+				&trans &trans &tog MAC &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &bootloader
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
